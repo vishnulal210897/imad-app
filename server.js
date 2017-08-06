@@ -22,10 +22,10 @@ var articletwo = {
     
 };
 function createtemplate (data) {
-    var title = title.data;
-    var heading = heading.data;
-    var date = date.data;
-    var content = content.data;
+    var title = data.title;
+    var heading = data.heading;
+    var date = data.date;
+    var content = data.content;
 var htmltemplate = `
 <html>
     <head>
