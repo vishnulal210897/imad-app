@@ -1,6 +1,6 @@
 //counter
 var button = document.getElementById('counter');
-button.onclick = function(){
+button.Onclick = function(){
     var reguest = newXMLHTTPRequest();
     request.onreadystatechange = function(){
         if(requeststate === XMLHTTPRequest.DONE){
