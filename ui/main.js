@@ -1,7 +1,7 @@
 //counter
 var submit  = document.getElementById('submit-btn');
 submit.onclick = function () {
-    var reguest = newXMLHTTpRequest();
+    var request = newXMLHTTpRequest();
     request.onreadystatechange = function(){
         if(requeststate === XMLHTTpRequest.DONE){
             if(request.status === 200){
